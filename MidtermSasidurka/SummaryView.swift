@@ -8,11 +8,36 @@
 import SwiftUI
 
 struct SummaryView: View {
+    
+    @Binding var orders: [Order] // Use Binding to access the orders
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            List {
+                ForEach(orders.indices, id: \.self) { index in
+                    HStack {
+                        VStack(alignment: .leading) {
+                            Text("Size: \(orders[index].size)")
+                            Text("Topping: \(orders[index].toppings)")
+                            Text("Crust: \(orders[index].crust)")
+                            Text("Quantity: \(orders[index].quantity)")
+                        }
+                    }
+                }
+            }
+            .listStyle(PlainListStyle())
+        }
+        .navigationTitle("My Orders")
+        .padding()
     }
 }
 
-#Preview {
-    SummaryView()
+struct OrderListView_Previews: PreviewProvider {
+    @State static var previewOrders = [
+        Order(size: "Medium", toppings: "Pepperoni", crust: "Thin", quantity: 2)
+    ]
+    
+    static var previews: some View {
+        SummaryView(orders: $previewOrders)
+    }
 }

@@ -8,17 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		D2DCEBBD2CC0CB070063B569 /* MidtermSasidurkaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2DCEBBC2CC0CB070063B569 /* MidtermSasidurkaApp.swift */; };
-		D2DCEBBF2CC0CB070063B569 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2DCEBBE2CC0CB070063B569 /* ContentView.swift */; };
+		D2DCEBBF2CC0CB070063B569 /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2DCEBBE2CC0CB070063B569 /* OrderView.swift */; };
 		D2DCEBC12CC0CB070063B569 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2DCEBC02CC0CB070063B569 /* Assets.xcassets */; };
 		D2DCEBC42CC0CB070063B569 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2DCEBC32CC0CB070063B569 /* Preview Assets.xcassets */; };
+		D2DCEBCB2CC0D57F0063B569 /* SummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2DCEBCA2CC0D57F0063B569 /* SummaryView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D2DCEBB92CC0CB060063B569 /* MidtermSasidurka.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MidtermSasidurka.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2DCEBBC2CC0CB070063B569 /* MidtermSasidurkaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MidtermSasidurkaApp.swift; sourceTree = "<group>"; };
-		D2DCEBBE2CC0CB070063B569 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D2DCEBBE2CC0CB070063B569 /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
 		D2DCEBC02CC0CB070063B569 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D2DCEBC32CC0CB070063B569 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D2DCEBCA2CC0D57F0063B569 /* SummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +54,8 @@
 			isa = PBXGroup;
 			children = (
 				D2DCEBBC2CC0CB070063B569 /* MidtermSasidurkaApp.swift */,
-				D2DCEBBE2CC0CB070063B569 /* ContentView.swift */,
+				D2DCEBBE2CC0CB070063B569 /* OrderView.swift */,
+				D2DCEBCA2CC0D57F0063B569 /* SummaryView.swift */,
 				D2DCEBC02CC0CB070063B569 /* Assets.xcassets */,
 				D2DCEBC22CC0CB070063B569 /* Preview Content */,
 			);
@@ -137,8 +140,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D2DCEBBF2CC0CB070063B569 /* ContentView.swift in Sources */,
+				D2DCEBBF2CC0CB070063B569 /* OrderView.swift in Sources */,
 				D2DCEBBD2CC0CB070063B569 /* MidtermSasidurkaApp.swift in Sources */,
+				D2DCEBCB2CC0D57F0063B569 /* SummaryView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
