@@ -18,8 +18,8 @@ struct SummaryView: View {
                     HStack {
                         VStack(alignment: .leading) {
                             Text("Size: \(orders[index].size)")
-                            Text("Topping: \(orders[index].toppings)")
-                            Text("Crust: \(orders[index].crust)")
+                            Text("Type: \(orders[index].toppings)")
+                            
                             Text("Quantity: \(orders[index].quantity)")
                         }
                     }
