@@ -12,7 +12,7 @@ import SwiftUI
 struct MidtermSasidurkaApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            OrderView()
         }
     }
 }
